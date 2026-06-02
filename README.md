@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing projects, skills, and experience. Built with React 19, TypeScript, Vite, and Tailwind CSS v4.
 
-**Live site:** [aleksavlaski.vercel.app](https://aleksavlaski.vercel.app) *(coming soon)*
+**Live site:** [aleksa-vlaski-portfolio.vercel.app](https://aleksa-vlaski-portfolio.vercel.app)
 
 ---
 
