@@ -24,7 +24,7 @@ export default function About() {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.15 }}
           >
             <p className="text-slate-300 text-lg leading-relaxed mb-6">
-              I'm a software engineering graduate based in Belgrade, Serbia, with hands-on experience across backend development, full-stack web applications, and machine learning.
+              I'm a software engineering graduate based in Belgrade, Serbia, with hands-on experience in full-stack web development and machine learning.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed mb-6">
               Proficient in C#, Swift and Java, I bring a strong foundation in algorithms, data structures, and database design to every project I work on. I enjoy solving real problems with code that is not just functional, but readable and maintainable.
