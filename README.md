@@ -4,6 +4,20 @@ Personal portfolio website showcasing projects, skills, and experience. Built wi
 
 **Live site:** [aleksa-vlaski-portfolio.vercel.app](https://aleksa-vlaski-portfolio.vercel.app)
 
+![Portfolio preview](.github/preview.png)
+
+---
+
+## Sections
+
+- **Hero** — intro, photo, CV download
+- **About** — background and focus areas
+- **Skills** — languages, web, databases, tools
+- **Experience** — work history
+- **Projects** — featured repos with tech stacks
+- **Education** — degrees and institutions
+- **Contact** — links + EmailJS contact form
+
 ---
 
 ## Tech Stack
