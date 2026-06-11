@@ -3,11 +3,11 @@ import type { SkillGroup } from '../types'
 export const skills: SkillGroup[] = [
   {
     category: 'Languages',
-    skills: ['Java', 'C#', 'Python', 'Swift'],
+    skills: ['Java', 'C#', 'Python', 'PHP', 'JavaScript', 'Swift'],
   },
   {
     category: 'Web',
-    skills: ['.NET', 'Laravel', 'React', 'REST APIs', 'HTML', 'CSS'],
+    skills: ['.NET', 'Laravel', 'React', 'REST APIs', 'HTML', 'CSS', 'Tailwind CSS'],
   },
   {
     category: 'Databases',
