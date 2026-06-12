@@ -16,7 +16,7 @@ No test runner is configured.
 ---
 
 ## What this is
-Personal portfolio website for Aleksa Vlaški, software engineering intern/aspiring full-stack developer from Pančevo/Belgrade, Serbia. Goal: impress employers, showcase projects, make it easy to contact me.
+Personal portfolio website for Aleksa Vlaški, software engineering graduate/aspiring full-stack developer from Pančevo/Belgrade, Serbia. Goal: impress employers, showcase projects, make it easy to contact me.
 
 Reference design: kecman.co — clean, single-page, scroll-based, professional.
 
@@ -136,11 +136,10 @@ Fixed top navbar with links to each section + GitHub + LinkedIn icons. Becomes `
 ---
 
 ## Skills Summary
-- **Languages**: Java (proficient), C# (proficient), Python (strong)
-- **Web**: .NET, Laravel, React, REST APIs, HTML, CSS
+- **Languages**: Java, C#, Python, PHP, JavaScript
+- **Web**: .NET, Laravel, React, REST APIs, HTML, CSS, Tailwind CSS
 - **Databases**: MySQL, SQL Server, MongoDB, PostgreSQL
 - **Tools**: Git, GitHub, VS Code, Visual Studio, Agile/Scrum, Clean Architecture
-- **Learning**: Swift/iOS, TypeScript
 
 ---
 

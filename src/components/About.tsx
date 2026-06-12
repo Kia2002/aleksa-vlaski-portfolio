@@ -27,10 +27,10 @@ export default function About() {
               I'm a software engineering graduate based in Belgrade, Serbia, with hands-on experience in full-stack web development and machine learning.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed mb-6">
-              Proficient in C#, Swift and Java, I bring a strong foundation in algorithms, data structures, and database design to every project I work on. I enjoy solving real problems with code that is not just functional, but readable and maintainable.
+              Proficient in C# and Java, with a strong command of Python, I bring a solid foundation in algorithms, data structures, and database design to every project I work on. I enjoy solving real problems with code that is not just functional, but readable and maintainable.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed">
-              A practical problem-solver with proven ability to deliver in Agile team environments, I am currently putting these skills to work in a professional internship at Orion Innovation, and actively looking for opportunities to keep growing.
+              A practical problem-solver with proven ability to deliver in Agile team environments, I bring hands-on experience from a professional software engineering internship and I'm actively looking for new opportunities to keep growing as a developer.
             </p>
           </motion.div>
 
