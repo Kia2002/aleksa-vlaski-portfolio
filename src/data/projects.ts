@@ -2,11 +2,19 @@ import type { Project } from '../types'
 
 export const projects: Project[] = [
   {
-    title: 'QuickBite - Food Delivery App',
+    title: 'FootballIQ Scout',
     description:
-      'Full-stack food delivery platform with restaurant browsing, cart management, and order tracking. Laravel REST API backend consumed by a React frontend.',
-    tech: ['Laravel', 'React', 'MySQL', 'REST API'],
-    githubUrl: 'https://github.com/Kia2002/QuickBite---aplikacija-za-dostavu-hrane',
+      'ASP.NET Core 9 scouting API that answers natural language football queries via a hybrid RAG pipeline combining BM25, pgvector semantic search, and Reciprocal Rank Fusion over 3,000+ StatsBomb matches.',
+    tech: ['.NET 9', 'RAG', 'pgvector', 'Clean Architecture'],
+    githubUrl: 'https://github.com/Kia2002/FootballIQ',
+    inProgress: true,
+  },
+  {
+    title: 'Medical Appointment App',
+    description:
+      'Medical appointment management system handling patient scheduling, doctor availability, and full appointment lifecycle management.',
+    tech: ['.NET', 'SQL Server', 'Agile / Scrum', 'Clean Architecture'],
+    githubUrl: 'https://github.com/Kia2002/MedicalAppointmentApp',
   },
   {
     title: 'Fitness Training Booking',
@@ -16,18 +24,18 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Kia2002/Seminarski-rad---aplikacija-za-zakazivanje-treninga',
   },
   {
+    title: 'QuickBite - Food Delivery App',
+    description:
+      'Full-stack food delivery platform with restaurant browsing, cart management, and order tracking. Laravel REST API backend consumed by a React frontend.',
+    tech: ['Laravel', 'React', 'MySQL', 'REST API'],
+    githubUrl: 'https://github.com/Kia2002/QuickBite---aplikacija-za-dostavu-hrane',
+  },
+  {
     title: 'Stock Price Trend Prediction',
     description:
       'Feed-forward neural network that predicts stock price trends from historical market data. Trained and evaluated with standard ML tooling.',
     tech: ['Python', 'Scikit-learn', 'NumPy', 'Pandas'],
     githubUrl: 'https://github.com/Kia2002/stock-trend-prediction-ffnn',
-  },
-  {
-    title: 'Medical Appointment App',
-    description:
-      'Medical appointment management system handling patient scheduling, doctor availability, and full appointment lifecycle management.',
-    tech: ['.NET', 'SQL Server', 'Agile / Scrum', 'Clean Architecture'],
-    githubUrl: 'https://github.com/Kia2002/MedicalAppointmentApp',
   },
   {
     title: 'Harry Potter Characters',

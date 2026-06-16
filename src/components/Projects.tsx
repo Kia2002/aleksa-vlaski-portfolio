@@ -26,9 +26,15 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, ease: 'easeOut', delay: i * 0.08 }}
-              className={`bg-card border border-border rounded-xl p-6 flex flex-col gap-4 hover:border-accent/40 transition-colors duration-300 group${projects.length % 2 !== 0 && i === projects.length - 1 ? ' md:col-span-full md:max-w-[calc(50%-12px)] md:mx-auto md:w-full' : ''}`}
+              className={`bg-card border rounded-xl p-6 flex flex-col gap-4 transition-colors duration-300 group${project.inProgress ? ' border-accent/50 hover:border-accent' : ' border-border hover:border-accent/40'}${projects.length % 2 !== 0 && i === projects.length - 1 ? ' md:col-span-full md:max-w-[calc(50%-12px)] md:mx-auto md:w-full' : ''}`}
             >
               <div>
+                {project.inProgress && (
+                  <span className="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-md bg-accent/15 border border-accent/40 text-accent font-semibold tracking-wide uppercase mb-3">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                    In Progress
+                  </span>
+                )}
                 <h3 className="font-display text-lg font-semibold text-white mb-2 group-hover:text-accent transition-colors duration-200">
                   {project.title}
                 </h3>
