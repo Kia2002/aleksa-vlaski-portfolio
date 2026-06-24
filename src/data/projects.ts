@@ -10,12 +10,12 @@ export const projects: Project[] = [
     inProgress: true,
   },
   {
-    title: 'Medical Appointment App',
-    description:
-      'Medical appointment management system handling patient scheduling, doctor availability, and full appointment lifecycle management.',
-    tech: ['.NET', 'SQL Server', 'Agile / Scrum', 'Clean Architecture'],
-    githubUrl: 'https://github.com/Kia2002/MedicalAppointmentApp',
-  },
+  title: 'Medical Appointment App',
+  description:
+    'Full-stack medical scheduling system built with a 10-member team: ASP.NET Core RESTful API backend (Clean Architecture), React/TypeScript frontend, and AI-assisted scheduling via OpenAI for natural-language booking. Designed and implemented API endpoints and business logic for patient/doctor/appointment CRUD, slot-availability rules, filtering, and CSV export.',
+  tech: ['.NET 8', 'EF Core', 'SQL Server', 'React', 'TypeScript', 'OpenAI API'],
+  githubUrl: 'https://github.com/Kia2002/MedicalAppointmentApp',
+},
   {
     title: 'Fitness Training Booking',
     description:
