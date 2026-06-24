@@ -12,8 +12,8 @@ export const projects: Project[] = [
   {
     title: 'Medical Appointment App',
     description:
-      'Full-stack medical scheduling system for managing patients, doctors, and appointments, including slot-availability rules and natural-language booking powered by the OpenAI API. ASP.NET Core REST API backend with Clean Architecture, paired with a React/TypeScript frontend, built collaboratively in a 10-member Agile team.',
-    tech: ['.NET 8', 'EF Core', 'SQL Server', 'React', 'TypeScript', 'OpenAI API'],
+      'Full-stack medical scheduling system with an ASP.NET Core backend organized into Domain, Application, Infrastructure, and API layers (Clean Architecture), a React/TypeScript frontend, and a C++ CLI admin tool. Implemented the REST API endpoints and business logic for patient, doctor, and appointment CRUD, slot-availability rules, filtering, and CSV export using EF Core and SQL Server, plus OpenAI-powered natural-language booking.',
+    tech: ['.NET 8', 'EF Core', 'SQL Server', 'React', 'TypeScript', 'C++', 'OpenAI API'],
     githubUrl: 'https://github.com/Kia2002/MedicalAppointmentApp',
   },
   {
