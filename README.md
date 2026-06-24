@@ -4,8 +4,6 @@ Personal portfolio website showcasing projects, skills, and experience. Built wi
 
 **Live site:** [aleksa-vlaski-portfolio.vercel.app](https://aleksa-vlaski-portfolio.vercel.app)
 
-![Portfolio preview](.github/preview.png)
-
 ---
 
 ## Sections
