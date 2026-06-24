@@ -54,7 +54,7 @@ export default function Hero() {
               {...fadeUp(0.45)}
               className="text-slate-300 text-base lg:text-lg leading-relaxed mb-10 max-w-md"
             >
-              Aspiring software engineer from Belgrade, Serbia, with hands-on experience in backend development, full-stack applications, and machine learning. I care about writing code that is clean, testable, and built to last.
+              Software engineer with hands-on full-stack experience in .NET and React, plus a machine learning background from academic research. Focused on backend architecture, API design, and integrating AI/LLM features into production systems, from RAG pipelines to natural-language booking flows. Delivered features in Agile teams both during a professional internship and in self-directed projects.
             </motion.p>
             <motion.div {...fadeUp(0.55)} className="flex flex-wrap gap-4">
               <a
